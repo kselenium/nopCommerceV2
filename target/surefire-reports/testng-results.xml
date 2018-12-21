@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2018-12-18T21:28:15Z" name="nopCommerce" finished-at="2018-12-18T21:29:49Z" duration-ms="94117">
+  <suite started-at="2018-12-21T15:07:26Z" name="nopCommerce" finished-at="2018-12-21T15:09:34Z" duration-ms="127595">
     <groups>
     </groups>
-    <test started-at="2018-12-18T21:28:15Z" name="Test1" finished-at="2018-12-18T21:29:49Z" duration-ms="94117">
-      <class name="com.nopcommerce.testCases.TC_AddCustomerTest_004">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.nopcommerce.testCases.TC_AddCustomerTest_004@4c39bec8]" started-at="2018-12-18T21:28:15Z" name="setup" finished-at="2018-12-18T21:28:33Z" duration-ms="17462" status="PASS">
+    <test started-at="2018-12-21T15:07:26Z" name="Test1" finished-at="2018-12-21T15:09:34Z" duration-ms="127595">
+      <class name="com.nopcommerce.testCases.TC_LoginTest_001">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.nopcommerce.testCases.TC_LoginTest_001@1e178745]" started-at="2018-12-21T15:07:28Z" name="setup" finished-at="2018-12-21T15:07:45Z" duration-ms="17437" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,11 +18,32 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="addNewCustomer()[pri:0, instance:com.nopcommerce.testCases.TC_AddCustomerTest_004@4c39bec8]" started-at="2018-12-18T21:28:33Z" name="addNewCustomer" finished-at="2018-12-18T21:29:48Z" duration-ms="75614" status="PASS">
+        <test-method signature="loginTest()[pri:0, instance:com.nopcommerce.testCases.TC_LoginTest_001@1e178745]" started-at="2018-12-21T15:07:45Z" name="loginTest" finished-at="2018-12-21T15:08:27Z" duration-ms="41802" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.nopcommerce.testCases.TC_LoginTest_001@1e178745]" started-at="2018-12-21T15:08:27Z" name="tearDown" finished-at="2018-12-21T15:08:29Z" duration-ms="1735" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.nopcommerce.testCases.TC_LoginTest_001 -->
+      <class name="com.nopcommerce.testCases.TC_AddCustomerTest_004">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.nopcommerce.testCases.TC_AddCustomerTest_004@192c3f1e]" started-at="2018-12-21T15:08:29Z" name="setup" finished-at="2018-12-21T15:08:35Z" duration-ms="5725" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="addNewCustomer()[pri:0, instance:com.nopcommerce.testCases.TC_AddCustomerTest_004@192c3f1e]" started-at="2018-12-21T15:08:35Z" name="addNewCustomer" finished-at="2018-12-21T15:09:33Z" duration-ms="57949" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addNewCustomer -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.nopcommerce.testCases.TC_AddCustomerTest_004@4c39bec8]" started-at="2018-12-18T21:29:48Z" name="tearDown" finished-at="2018-12-18T21:29:49Z" duration-ms="660" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.nopcommerce.testCases.TC_AddCustomerTest_004@192c3f1e]" started-at="2018-12-21T15:09:33Z" name="tearDown" finished-at="2018-12-21T15:09:34Z" duration-ms="1282" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
